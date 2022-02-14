@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+html {
+    background-color: #22254b;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #373b69;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search {
+    font-family: 'Poppins';
+    background-color: transparent;
+    border: 2px solid #22254b;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+}
+
+main {
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 32px;
+}
+
+.items-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #373b69;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info {
+    font-family: 'Poppins';
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.info-h3 {
+    margin-top: 0;
+}
+
+.info-span {
+    background-color: #22254b;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.overview {
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 90%;
+    transform: translateY(101%);
+    overflow-y: auto;
+    transition: transform 0.3s ease-in;
+    border-radius: 10px;
+    background-color: #373b69;
+    color: #eee;
+    font-family: 'Poppins';
+}
+
+.items-wrapper:hover .overview {
+    transform: translateY(0);
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: lightgreen;
+}
+
+
+/* Footer style */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer_data {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer_data span {
+    font-size: 30px;
+    color: beige;
+    margin: 0 1rem;
+}
+
+span a {
+    color: beige;
+    text-decoration: none;
+}
+
+.rsschool img {
+    width: 240px;
+    padding: 10px;
+}
+
+a:hover {
+    color: white;
+}
