@@ -116,18 +116,28 @@ main {
 
 .footer_data {
     text-align: center;
-    padding: 10px;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
 }
 
-.footer_data span {
+.year {
     font-size: 30px;
-    color: beige;
+    color: #7178c2;
     margin: 0 1rem;
+    font-family: 'Poppins';
+    transition: all 0.3s ease-in-out;
+}
+
+.year:hover {
+    color: #ffffff;
 }
 
 span a {
-    color: beige;
+    color: #7178c2;
     text-decoration: none;
+    font-family: 'Poppins';
 }
 
 .rsschool img {
@@ -135,6 +145,24 @@ span a {
     padding: 10px;
 }
 
-a:hover {
-    color: white;
+.footer-icon1 {
+    fill: #7178c2;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-icon1:hover {
+    fill: #ffffff;
+}
+
+.footer-icon2 {
+    fill: #7178c2;
+    width: 135px;
+    height: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-icon2:hover {
+    fill: #ffffff;
 }
